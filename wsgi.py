@@ -5,5 +5,9 @@ application = Flask(__name__)
 def hello():
     return "Hello World!"
 
+@application.route("/tok")
+def hello():
+    return "Hello Tok!"
+
 if __name__ == "__main__":
     application.run()
