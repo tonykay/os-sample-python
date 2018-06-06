@@ -6,7 +6,7 @@ def hello():
     return "Hello World!"
 
 @application.route("/tok")
-def hello():
+def thello():
     return "Hello Tok!"
 
 if __name__ == "__main__":
