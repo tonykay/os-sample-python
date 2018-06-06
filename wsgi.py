@@ -10,7 +10,7 @@ def thello():
     return "Hello Tok!"
 
 @application.route("/class")
-def thello():
+def chello():
     return "<h1>Hello Tok!</h1>"
 
 if __name__ == "__main__":
